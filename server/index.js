@@ -1,3 +1,4 @@
+const path = require('path');
 const controller = require('./controller')
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -10,6 +11,11 @@ require('dotenv').config();
 //many references the one. properties references the user_id
 
 const app = express();
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
+
 app.use(bodyParser.json())
 
 massive(process.env.CONNECTION_STRING).then(db => {
