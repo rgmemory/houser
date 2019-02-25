@@ -1,0 +1,22 @@
+.address input{
+    border: #559673 1px solid;
+    height: 30px;
+}
+
+.address_input input{
+    width: 100%;
+}
+
+.second_row{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.second_row input{
+    width: 200px;
+}
+
+.zip_input input{
+    width: 200px;
+}

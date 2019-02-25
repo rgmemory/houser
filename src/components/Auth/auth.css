@@ -1,0 +1,90 @@
+.auth_inner_middle {
+  width: 550px;
+  height: 100%;
+  margin: auto;
+}
+
+.auth_logo {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.auth_logo img {
+  position: absolute;
+  margin-top: 130px;
+  height: 50%;
+  width: auto;
+}
+
+.auth_inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+
+.auth_inputs div {
+  margin-top: 10px;
+}
+
+.auth_buttons {
+  height: 5%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.auth_inputs input {
+  width: 400px;
+  height: 28px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.logo {
+  position: absolute;
+  top: 80%;
+}
+
+.auth_buttons .login_button {
+  background-color: #8de995;
+  color: black;
+  height: 45px;
+  width: 110px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.auth_buttons .register_button {
+  background-color: #3c5249;
+  color: white;
+  height: 45px;
+  width: 110px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.login-tip-two {
+  color: #b0d3bf;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.login-tip-three {
+  color: #b0d3bf;
+  text-align: center;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+.login-tip-four {
+  color: #b0d3bf;
+  text-align: center;
+  font-size: 13px;
+}

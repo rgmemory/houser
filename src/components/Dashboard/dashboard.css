@@ -1,0 +1,157 @@
+.new_property {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard_add_new {
+  margin-top: 13px;
+  background-color: #8ce693;
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.dashboard_filter {
+  margin: auto;
+  width: 90%;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dashboard_filter .dashboard_input {
+  height: 25px;
+  width: 70px;
+}
+
+.filter_button {
+  height: 25px;
+  width: 70px;
+  background-color: #8de995;
+  color: black;
+  border-radius: 5px;
+}
+
+.reset_button {
+  height: 25px;
+  width: 70px;
+  background-color: #3c5249;
+  color: white;
+  border-radius: 5px;
+}
+
+.listings {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.listings b {
+  margin-left: 25px;
+}
+
+.right-top {
+  width: 100%;
+}
+
+.right-top-inner {
+  float: right;
+}
+
+.right-top-inner button {
+  padding: 0;
+  margin: 0;
+}
+
+.x-button {
+  font-weight: bold;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+}
+
+.right-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.dashboard_properties {
+  background-color: #dedede;
+  margin-bottom: 15px;
+
+  height: 50vh;
+  width: 95%;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 5px 5px 8px -4.5px #888888;
+  padding-bottom: 20px;
+}
+
+.dashboard_properties_center {
+  font-size: 15px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 53%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: solid #ccc 1.3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dashboard_properties_left {
+  height: 100%;
+}
+
+.dashboard_properties_left img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.dashboard_loan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard_loan button {
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.dashboard_description {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid #ccc 0.1px;
+}
+
+.dashboard_filter input {
+  height: 25px;
+  font-size: 15px;
+  width: 100px;
+}
+
+.properties-display {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

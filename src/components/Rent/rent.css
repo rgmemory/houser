@@ -1,0 +1,19 @@
+.rent_input input{
+    height: 30px;
+    width: 100%;
+}
+
+.recommended_rent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.complete button{
+    background-color: #8DE995;
+    height: 40px;
+    width: 150px;
+    color: black;
+    border-radius: 7px;
+}
