@@ -10,7 +10,6 @@ require('dotenv').config();
 //many references the one. properties references the user_id
 
 const app = express();
-////top level middleware
 app.use(bodyParser.json())
 
 massive(process.env.CONNECTION_STRING).then(db => {
@@ -20,21 +19,12 @@ massive(process.env.CONNECTION_STRING).then(db => {
     console.log(e)
 })
 
-// app.use((req, res, next){
-    //     req.session.user = {
-        //         name: 'tommy',
-        //         age: 24
-        //     };
-        //     next()
-        // })
+
         
         app.use(session({
             secret: process.env.SESSION_SECRET,
             resave: false,
             saveUninitialized: true
-            // cookie: {
-                //     maxAge: 1000 * 60
-                // }
             }))
             
             app.post('/api/auth/login', controller.login)
@@ -47,8 +37,8 @@ massive(process.env.CONNECTION_STRING).then(db => {
 
             app.delete('/api/delete/:id', controller.delete)
                         
-            app.listen(3005, () => {
-                console.log("working on 3005");
+            app.listen(3036, () => {
+                console.log("working on 3036");
             })
 
             //drop table if exists authors;
