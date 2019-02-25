@@ -12,9 +12,9 @@ require('dotenv').config();
 
 const app = express();
 
-app.get('*', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../build/index.html'));
-});
+app.use( express.static( `${__dirname}/../build` ) );
+
+
 
 app.use(bodyParser.json())
 
@@ -46,6 +46,12 @@ massive(process.env.CONNECTION_STRING).then(db => {
             app.listen(3036, () => {
                 console.log("working on 3036");
             })
+
+
+
+            app.get('*', (req, res)=>{
+                res.sendFile(path.join(__dirname, '../build/index.html'));
+            });
 
             //drop table if exists authors;
             //create table if not exists authors (
